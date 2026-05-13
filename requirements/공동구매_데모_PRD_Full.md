@@ -76,7 +76,7 @@
 ### 4.1 어드민 - 공구 등록
 
 #### 4.1.1 상품 정보 연동
-- **입력 방식**: 마켓뱅 상품 URL 입력 (`https://marketbang.kr/detail/{상품번호}`)
+- **입력 방식**: 마켓뱅 상품 URL 입력 (`https://api.marketbang.kr/api/buyer/v1/goods/{상품번호}`)
 - **자동 불러오기 필드**:
   - 상품명
   - 대표 이미지
