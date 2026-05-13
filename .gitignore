@@ -1,0 +1,41 @@
+# Backend
+backend/build/
+backend/.gradle/
+backend/bin/
+backend/out/
+backend/*.class
+backend/*.jar
+backend/*.war
+
+# Frontend common
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# Admin Front (Vue CLI)
+admin-front/node_modules/
+admin-front/dist/
+
+# User Front (Vite)
+user-front/node_modules/
+user-front/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+Thumbs.db
